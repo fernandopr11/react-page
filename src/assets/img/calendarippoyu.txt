@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Académico</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Agrega estilos adicionales según tus necesidades */
+       
+    </style>
+</head>
+<body>
+</section><a href="#sb-6" class="sr-only sr-only-focusable">Salta Calendario</a>
+
+<section id="inst331382"
+     class=" block_calendar_month block  card mb-3"
+     role="complementary"
+     data-block="calendar_month"
+     data-instance-id="331382"
+     aria-labelledby="instance-331382-header"
+     >
+    <div class="card-body p-3">
+            <h5 id="instance-331382-header" class="card-title d-inline">Calendario</h5>
+        
+            <div class="row">
+                <div class="col-md-3">
+                    <label class="sr-only" for="calendar-course-filter-1">Listado de cursos</label>
+                    <select class="select custom-select cal_courses_flt ml-1" id="calendar-course-filter-1" name="course">
+                        <option selected="selected" value="1">Todos los cursos</option>
+                        <option value="4403">202351_16396</option>
+                        <option value="4405">202351_16402</option>
+                        <option value="4408">202351_16409</option>
+                        <option value="4412">202351_16418</option>
+                    </select>
+                </div>
+                <div class="col-md-9">
+                    <button class="btn btn-sm btn-primary float-right" data-context-id="2" data-action="new-event-button">
+                        Nuevo evento
+                    </button>
+                </div>
+            </div>
+       
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-12">
+           
+                
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary" data-toggle="tooltip" title="Mes anterior">&lt;</button>
+                            <button class="btn btn-secondary" data-toggle="tooltip" title="Mes próximo">&gt;</button>
+                        </div>
+                        <h4 class="mb-0 text-center">Diciembre 2023</h4>
+                        <div class="btn-group">
+                            <button class="btn btn-secondary" data-toggle="tooltip" title="Mes anterior">&lt;</button>
+                            <button class="btn btn-secondary" data-toggle="tooltip" title="Mes próximo">&gt;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="text-center">Lun</th>
+                                <th class="text-center">Mar</th>
+                                <th class="text-center">Mié</th>
+                                <th class="text-center">Jue</th>
+                                <th class="text-center">Vie</th>
+                                <th class="text-center">Sáb</th>
+                                <th class="text-center">Dom</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="text-center event-day" data-toggle="tooltip" title="Evento académico">1</td>
+                                <td class="text-center event-day" data-toggle="tooltip" title="Evento académico">2</td>
+                                <td class="text-center event-day" data-toggle="tooltip" title="Otro evento">3</td>
+                            </tr>
+                            <!-- Agrega más filas y eventos según tus necesidades -->
+                            <tr>
+                                <td class="text-center event-day" data-toggle="tooltip" title="Evento académico">4</td>
+                                <td class="text-center">5</td>
+                                <td class="text-center">6</td>
+                                <td class="text-center">7</td>
+                                <td class="text-center">8</td>
+                                <td class="text-center">9</td>
+                                <td class="text-center">10</td>
+                             
+                            </tr>
+                            <tr>
+                                <td class="text-center event-day" data-toggle="tooltip" title="Evento académico">11</td>
+                                <td class="text-center">12</td>
+                                <td class="text-center">13</td>
+                                <td class="text-center">14</td>
+                                <td class="text-center">15</td>
+                                <td class="text-center">16</td>
+                                <td class="text-center">17</td>
+                             
+                            </tr>
+                            <tr>
+                                <td class="text-center event-day" data-toggle="tooltip" title="Evento académico">18</td>
+                                <td class="text-center">19</td>
+                                <td class="text-center">20</td>
+                                <td class="text-center">21</td>
+                                <td class="text-center">22</td>
+                                <td class="text-center">23</td>
+                                <td class="text-center">24</td>
+                             
+                            </tr>
+                            <tr>
+                                <td class="text-center event-day" data-toggle="tooltip" title="Evento académico">25</td>
+                                <td class="text-center">26</td>
+                                <td class="text-center">27</td>
+                                <td class="text-center">28</td>
+                                <td class="text-center">29</td>
+                                <td class="text-center">30</td>
+                                <td class="text-center">31</td>
+                             
+                            </tr>
+                            <!-- Agrega más filas y eventos según tus necesidades -->
+                            <!-- Repite este patrón para los demás días -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    // Inicializa el tooltip de Bootstrap
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+</body>
+</html>
